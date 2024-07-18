@@ -1,9 +1,9 @@
 {
-  "name": "The name of your application",
-  "short_name": "This name will show in your Windows taskbar, in the start menu, and Android homescreen",
-  "start_url": "The URL that should be loaded when your application is opened",
+  "name": "Rock Paper Scissors Game",
+  "short_name": "RPS Game",
+  "start_url": "/index.html",
   "display": "fullscreen",
-  "description": "A description for your application",
+  "description": "A fun Rock Paper Scissors game.",
   "lang": "en",
   "dir": "auto",
   "theme_color": "#000000",
@@ -45,9 +45,9 @@
   ],
   "shortcuts": [
     {
-      "name": "The name you would like to be displayed for your shortcut",
-      "url": "The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut",
-      "description": "A description of the functionality of this shortcut"
+      "name": "Quick Play",
+      "url": "/quickplay",
+      "description": "Start a quick game of Rock Paper Scissors"
     }
   ],
   "related_applications": [
@@ -64,11 +64,10 @@
   "prefer_related_applications": true,
   "protocol_handlers": [
     {
-      "protocol": "web+music",
-      "url": "/play?track=%s"
+      "protocol": "web+rps",
+      "url": "/play?game=%s"
     }
   ],
-
   "edge_side_panel": {
     "preferred_width": 400
   }
