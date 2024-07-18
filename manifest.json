@@ -2,13 +2,13 @@
   "name": "Rock Paper Scissors Game",
   "short_name": "RPS Game",
   "start_url": "/index.html",
-  "display": "standalone",
+  "display": "minimal-ui",
   "description": "A fun Rock Paper Scissors game.",
   "lang": "en",
-  "dir": "auto",
+  "dir": "ltr",
   "theme_color": "#000000",
   "background_color": "#000000",
-  "orientation": "any",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "images/manifest-icon-192.maskable.png",
@@ -70,5 +70,12 @@
   ],
   "edge_side_panel": {
     "preferred_width": 400
-  }
+  },
+  "categories": [
+    "games",
+    "kids"
+  ],
+  "display_override": [
+    "window-controls-overlay"
+  ]
 }
