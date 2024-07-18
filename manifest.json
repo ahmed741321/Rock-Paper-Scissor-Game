@@ -2,7 +2,7 @@
   "name": "Rock Paper Scissors Game",
   "short_name": "RPS Game",
   "start_url": "/index.html",
-  "display": "fullscreen",
+  "display": "standalone",
   "description": "A fun Rock Paper Scissors game.",
   "lang": "en",
   "dir": "auto",
